@@ -1,0 +1,6 @@
+C:\Users\artem\Desktop\LaB2\toolz\bin\Debug\toolz.dll
+C:\Users\artem\Desktop\LaB2\toolz\bin\Debug\toolz.pdb
+C:\Users\artem\Desktop\LaB2\toolz\obj\Debug\toolz.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\LaB2\toolz\obj\Debug\toolz.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\LaB2\toolz\obj\Debug\toolz.dll
+C:\Users\artem\Desktop\LaB2\toolz\obj\Debug\toolz.pdb

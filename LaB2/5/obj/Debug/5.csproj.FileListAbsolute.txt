@@ -1,0 +1,11 @@
+C:\Users\artem\Desktop\LaB2\5\obj\Debug\5.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\LaB2\5\obj\Debug\5.csproj.SuggestedBindingRedirects.cache
+C:\Users\artem\Desktop\LaB2\5\obj\Debug\5.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\LaB2\5\bin\Debug\_5.exe.config
+C:\Users\artem\Desktop\LaB2\5\bin\Debug\_5.exe
+C:\Users\artem\Desktop\LaB2\5\bin\Debug\_5.pdb
+C:\Users\artem\Desktop\LaB2\5\obj\Debug\_5.exe
+C:\Users\artem\Desktop\LaB2\5\obj\Debug\_5.pdb
+C:\Users\artem\Desktop\LaB2\5\bin\Debug\toolz.dll
+C:\Users\artem\Desktop\LaB2\5\bin\Debug\toolz.pdb
+C:\Users\artem\Desktop\LaB2\5\obj\Debug\5.csproj.CopyComplete

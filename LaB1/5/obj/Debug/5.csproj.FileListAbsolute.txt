@@ -1,0 +1,16 @@
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\bin\Debug\5.exe.config
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\bin\Debug\5.exe
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\bin\Debug\5.pdb
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\obj\Debug\5.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\obj\Debug\5.csproj.SuggestedBindingRedirects.cache
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\obj\Debug\5.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\obj\Debug\5.exe
+C:\Users\artem\Desktop\Dota 1x7\1\5\5\obj\Debug\5.pdb
+C:\Users\artem\Desktop\LaB1\5\bin\Debug\5.exe.config
+C:\Users\artem\Desktop\LaB1\5\bin\Debug\5.exe
+C:\Users\artem\Desktop\LaB1\5\bin\Debug\5.pdb
+C:\Users\artem\Desktop\LaB1\5\obj\Debug\5.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\LaB1\5\obj\Debug\5.csproj.SuggestedBindingRedirects.cache
+C:\Users\artem\Desktop\LaB1\5\obj\Debug\5.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\LaB1\5\obj\Debug\5.exe
+C:\Users\artem\Desktop\LaB1\5\obj\Debug\5.pdb
