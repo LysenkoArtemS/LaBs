@@ -10,14 +10,13 @@ namespace _7
     {
         static void Main(string[] args)
         {         
-            int[] array = toolz.toolz.CreatingArray();
-            toolz.toolz.FillingArrayKeyboard(array);
+            int[] array = toolz.tools.CreatingArray();
+            toolz.tools.FillingArrayKeyboard(array);
             Array.Sort(array);
             Array.Reverse(array);
             Console.WriteLine("Массив по убыванию :");
-            toolz.toolz.Printing1(array);
+            toolz.tools.PrintingArray(array);
             Console.ReadKey();
-
         }
     }
 }

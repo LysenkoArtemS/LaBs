@@ -8,49 +8,21 @@ namespace _8
 {
     internal class Program
     {
-        static void SearchingNumber(int[] arr, int zn)
-        {
-            int znach = 0;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i] == zn)
-                {
-                    Console.Write("{0};", i);
-                    znach++;
-                }    
-            };
-            if (znach > 0)
-            {
-                Console.Write("<- индексы числа {0} ", zn);
-            }
-            else
-            {
-                Console.Write("Число {0} не найдено ", zn);
-            }
-
-        }
-
         static void Main(string[] args)
         {
-            int number;
-            Random rnd = new Random();
-            int[] array = toolz.toolz.CreatingArray();
-            for (int i = 0; i < array.Length; i++)
+            int[] array = toolz.tools.CreatingArray();
+            toolz.tools.FillingArray(array, 0, 10);
+            toolz.tools.PrintingArray(array);
+            int number = Functions.CheckingInt();
+            int[] arrOfIndex = Functions.CreatingIndexArray(array, number);
+            if (arrOfIndex.Length == 0)
             {
-                array[i] = rnd.Next(0, 10);
-            }
-            toolz.toolz.Printing1(array);
-            Console.Write("\nВведите искомое число : ");
-            bool check = int.TryParse(Console.ReadLine(),out number);
-            if (check == true)
-            {
-                SearchingNumber(array, number);
+                Console.WriteLine("элементы не найдены");
             }
             else
             {
-                Console.WriteLine("Некорректное значение");
+                toolz.tools.PrintingArray(arrOfIndex);
             }
-
             Console.ReadKey();
         }
     }

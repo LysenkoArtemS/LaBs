@@ -8,34 +8,18 @@ namespace _1
 {
     internal class Program
     {
-        static void SortingByMax(int[] arr)
-        {
-            int znach;
-            for (int i = 0; i < arr.Length - 1; i++)
-            {
-                for (int j = i + 1; j < arr.Length; j++)
-                {
-                    if (arr[i] > arr[j])
-                    {
-                        znach = arr[i];
-                        arr[i] = arr[j];
-                        arr[j] = znach;
-                    }
-                }
-            }
-        }
-
         static void Main(string[] args)
         {
-            int[] array = new int[20];
+            int[] array = new int[toolz.tools.arraySize];
             Console.WriteLine("Исходный массив :");
-            toolz.toolz.FillingArray(array);
-            toolz.toolz.Printing1(array);
-            SortingByMax(array);
-            Console.WriteLine("\nОтсортированный массив :");
-            toolz.toolz.Printing1(array);
+            toolz.tools.FillingArray(array,-50,50);
+            toolz.tools.PrintingArray(array);
             Console.WriteLine("\nМинимальное значение = {0}. Максимальное значение = {1}",
-                                array[0], array[array.Length - 1]);
+                                Functions.FindingMinInArray(array), Functions.FindingMaxInArray(array));
+            Functions.SortingByMax(array);
+            Console.WriteLine("\nОтсортированный массив :");
+            toolz.tools.PrintingArray(array);
+            
             Console.ReadKey();
         }
     }
