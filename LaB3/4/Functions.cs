@@ -25,12 +25,16 @@ namespace _4
             var sb = new StringBuilder();
             while (str.IndexOf('<',startIndex) != -1)
             {
-                ending = str.IndexOf('<',startIndex);
-                sb.Append(str.Substring(begining, ending - begining ));
-                sb.Append('_');
-                begining = str.IndexOf('>', startIndex) + 1;
-                startIndex = begining;
+                if (str.IndexOf('>', startIndex) != -1)
+                {
+                    ending = str.IndexOf('<', startIndex);
+                    sb.Append(str.Substring(begining, ending - begining));
+                    sb.Append('_');
+                    begining = str.IndexOf('>', startIndex) + 1;
+                    startIndex = begining;
 
+                }
+                else break;
             };
             sb.Append(str.Substring(begining, str.Length - begining));
             string rezult2 = sb.ToString();

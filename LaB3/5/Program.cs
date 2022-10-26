@@ -13,7 +13,11 @@ namespace _5
         {
             Console.WriteLine("Введите строку ");
             string str = Console.ReadLine();
-            Functions.PrintingDates(str);
+            foreach (Match match in Functions.Matchns(str)) 
+            {
+                Console.WriteLine("{0}, где день = {1} , месяц = {2}, год = {3}",
+                    match.Value, match.Groups["day"], match.Groups["month"], match.Groups["year"]);
+            };
             Console.ReadKey();
         }
     }
