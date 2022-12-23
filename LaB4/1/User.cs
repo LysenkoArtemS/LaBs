@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _1
 {
-    internal class User
+    class User
     {    
         private DateTime _dateOfRegistration;
         private DateTime _dateOfBirth;
